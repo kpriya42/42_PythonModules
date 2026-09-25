@@ -1,0 +1,18 @@
+[project]
+name = "PythonModule08"
+version = "0.1.0"
+description = "Data Analysis of numpy generated data using pandas"
+authors = [{name = "Krishnapriya", email = "kri-@student.42heilbronn.de"}]
+
+[tool.poetry]
+package-mode = false
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.12"
+pandas = "2.1.0"
+numpy = "1.25.0"
+matplotlib = "3.5.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
